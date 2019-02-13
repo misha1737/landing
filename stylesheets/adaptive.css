@@ -1,0 +1,301 @@
+body{-ms-overflow-x: hidden !important;
+    overflow-x: hidden !important;}
+html{-ms-overflow-x: hidden !important;
+    overflow-x: hidden !important;}
+
+@media (max-width: 1000px){
+	#services{
+		height: 62em !important;
+		background: url("../img/home_header_750.jpg") right top no-repeat;
+	}
+
+	#services h2{font-size: 4em !important;}
+	#services h1{font-size: 5.5em !important;}
+
+	#services .items .item .icon img{max-width: 84% !important;}
+
+	#services .items .item .text{font-size: 1.9em !important;}
+
+	#services .items .item .icon{margin-right: 1% !important;}
+
+	#services a.info_button{margin-top: 6% !important;}
+
+	.order a, .info_button a, .info_button span, .modal_form_button span.f_but{font-size: 2.5em !important;}
+
+
+	section.block_5 .header ul.nav li a{
+		font-size: 2em !important;
+	}
+
+	section.block_5 .header{
+		height: 4.3rem !important;
+	}
+
+	section.block_5 .header ul.nav li{padding-bottom: 3% !important;}
+
+	section.block_5 .wrapper h3{font-size: 2.2em !important;}
+
+	.jq-selectbox__select-text{min-width: 12.5rem !important;}
+
+
+	.ui-slider-block .title{font-size: 0.75rem !important;}
+
+	.tariff a{font-size: 0.7rem !important;}
+
+	.decision_text .icon img{max-width: 90% !important;}
+
+	.decision_text{font-size: 1rem !important;}
+
+	.decision_percent2{font-size: 2.5em !important;}
+
+	.decision_percent{font-size: 2.5em !important; margin-left: 22% !important;}
+
+	.decision_dopinfo{font-size: 1rem !important;}
+
+	section.block_5 .wrapper .form_1{height: 20rem !important;}
+
+	.c-tab.one .c-tab__content .form_1{height: 38rem !important;}
+
+	section.block_5 .wrapper .item .icon{font-size: 1.5em !important;}
+	section.block_5 .wrapper .item .text{font-size: 1em !important; letter-spacing: 0.05em !important;}
+	#conditions .form_1{height: 39rem !important;}
+
+	.icon_min .icon{font-size: 1.4em !important;}
+
+	.form_2_block .item .text{font-size: 1.1em !important;}
+
+	.block_6{padding-top: 0 !important;}
+	.form_2 input.form_btn{font-size: 2em !important;}
+
+
+
+	section.block_6 .header .text h3{font-size: 2em !important;}
+	section.block_6 .header{height: 4.5rem !important;}
+
+	.form_2_block{margin-top: 2% !important;}
+
+	.form_2 input{font-size: 1em !important;}
+
+	.order a, .info_button a, .info_button span, .modal_form_button span.f_but{font-size: 2em !important;}
+	.block_6 .info_button{margin-top: -4rem !important;}
+
+	.conditions .check_p{font-size: 0.7rem !important;}
+	.conditions a{font-size: 0.7rem !important;}
+
+	.form_2{height: 40rem !important}
+
+
+
+	footer .site_info{font-size: 1.8em !important;}
+	footer .site_info h5{margin-right: 1px !important;}
+	footer .site_info span{margin-right: 0 !important;}
+	footer .site_info p{margin-right: 1px !important;}
+}
+
+@media (max-width: 750px){
+	#header ul.nav li{font-size: 1.8em !important;}
+
+	#services h2{font-size: 3.5em !important;}
+	#services h1{font-size: 4.8em !important;}
+	#services{background: url("../img/home_header_600.jpg") right top no-repeat; height: 56em !important;}
+	#services .items .item{width: 53% !important;}
+	#services .items .item .text{font-size: 1.84em !important; letter-spacing: 0.09em;}
+	#services .items .item .icon img{max-width: 87% !important;}
+
+	section.block_5 .header ul.nav li a{font-size: 1.9em !important;}
+	section.block_5 .header{height: 3.7rem !important;}
+	section.block_5 .wrapper h3{font-size: 2em !important;}
+	.c-tab__content{padding: 0 !important; padding-left: 2% !important; padding-bottom: 5% !important;}
+	section.block_5 .header ul.nav li{padding-bottom: 2.6% !important;}
+
+	section.block_5 .wrapper .form_1 .form_1_block{width: 46% !important;}
+	.decision_percent2{font-size: 2em !important; margin-bottom: 26% !important; margin-left: 21% !important;}
+	.slider-value{margin-top: -2.1rem !important;}
+	.form_2_block h4{margin-top: 5% !important;}
+	section.block_5 .wrapper .form_1_block .item .text{vertical-align: top !important; width: 86% !important;}
+	section.block_5 .wrapper .form_1_block h4{font-size: 1.3em !important;}
+
+	section.block_6 .header{height: 4rem !important;}
+	.form_conditions{	margin-bottom: 10% !important}
+	.form_2{height: 40rem !important}
+	
+
+	#socials .header{height: 4.5rem !important;}
+	#socials .header .text h3{margin-top: 4% !important; font-size: 2em !important;}
+	#socials .header .text .icon{margin-top: 3% !important;}
+}
+
+@media (max-width: 600px){
+	#header ul.nav li{font-size: 1.6em !important; margin-right: 5% !important;}
+
+	#services{background: url("../img/home_header_500.jpg") right top no-repeat; height: 53em !important;}
+	#services .items .item .text{font-size: 1.5em !important;}
+	#services h1{font-size: 4.2em !important;}
+	#services h2{font-size: 3em !important;}
+
+	section.block_5 .header ul.nav li a{font-size: 1.8em !important;}
+	section.block_5 .header{height: 3.3rem !important;}
+	.jq-selectbox__select-text{min-width: 9.5rem !important;}
+	.decision_text{font-size: 0.9em !important;}
+	.decision_percent2{font-size: 1.7em !important;}
+	.slider-value{margin-top: -1.3rem !important;}
+	.ui-slider-block .title{margin: 0 0 1.5rem 0.8rem;}
+	.decision_percent{font-size: 2em !important;}
+	.decision_dopinfo{font-size: 0.8rem !important;}
+	section.block_5 .wrapper .form_1{height: 24rem !important;}
+
+	section.block_5 .wrapper .form_1_block h4{font-size: 1.2em !important;}
+	section.block_5 .wrapper .item .text{font-size: 0.73em !important;}
+	section.block_5 .wrapper .item .icon{font-size: 1.3em !important;}
+	.form_2_block h4{font-size: 1.7em !important;}
+	section.block_5 .wrapper .form_2_block .item .text{font-size: 1.1em !important;}
+	section.block_5 .wrapper .form_2_block .item{width: 50% !important;}
+	section.block_5 .header ul.nav li{padding-bottom: 2.5% !important;}
+	.c-tab.one {margin-bottom: 4% !important;}
+
+	section.block_6 .header .text h3{font-size: 1.8em !important;}
+	section.block_6 .header{height: 3.4rem !important;}
+	.form_2{padding: 0 2rem 0rem 1rem !important; margin: 2.5rem 0 0 0 !important;}
+	.error{font-size: 0.55rem !important;}
+
+	#socials .header .text h3{font-size: 1.8em !important;}
+	#socials .header .text .icon{width: 30px !important; height: 30px !important;}
+	#socials .header .text .icon i{margin-top: 8px !important;}
+	#socials .header{height: 3.6rem !important;}
+
+	footer .site_info h5{font-size: 1.1em !important;}
+	footer .site_info span{font-size: 0.6em !important;}
+	footer .site_info span.text_2{font-size: 0.9em !important;}
+	footer .week_mini{-webkit-background-size: 62% !important;
+	     -o-background-size: 62% !important;
+	        background-size: 62% !important;
+	    		margin-top: 5% !important;}
+}
+
+@media (max-width: 500px){
+	#header ul.nav li{font-size: 1.5em !important;}
+	#header ul.nav{width: 61% !important;}
+	#header{height: 4.5rem !important;}
+	#header ul.nav li:hover{border-bottom: 2px solid #001D60 !important;}
+	#header ul.nav li{line-height: 83px !important;}
+
+	#services h2{font-size: 2.7em !important;}
+	#services h1{font-size: 3.7em !important;}
+	#services{height: 48em !important; background: url("../img/home_header_400.jpg") right top no-repeat;}
+	#services .items .item .text{font-size: 1.35em !important;}
+	#services .items .item{width: 55% !important;}
+	#services a.info_button span{padding: 0.4rem 2.3rem !important;}
+	.order a, .info_button a, .info_button span, .modal_form_button span.f_but{font-size: 1.7em !important;}
+
+	.big_line{height: 5px !important;}
+
+	section.block_5 .header ul.nav li a{font-size: 1.66em !important;}
+	section.block_5 .header ul.nav li{margin-top: 5% !important;}
+	section.block_5 .header ul.nav li:hover{border: none !important;}
+	section.block_5 .wrapper h3{font-size: 1.66em !important;}
+	section.block_5 .wrapper .form_1 .form_1_block{width: 100% !important;}
+	section.block_5 .wrapper .form_1 .form_1_block:nth-child(1){border-right: none !important; padding-left: 1% !important;}
+	.ui-slider-block .title{margin: 0 0 1.5rem 0.1rem !important;}
+	.slider-value{margin-top: -2.5rem !important;}
+	.jq-selectbox__select-text{min-width: 18.5rem !important;}
+	section.block_5 .wrapper .form_1{height: 41rem !important;}
+	.jq-selectbox li.selected{font-size: 0.8em !important;}
+	.jq-selectbox li{font-size: 0.8em !important;}
+	.jq-selectbox__select-text{font-size: 0.8em !important;}
+	.jq-selectbox__trigger{-webkit-background-size: 92% !important;
+	     -o-background-size: 92% !important;
+	        background-size: 92% !important;}
+	.ui-slider-block{margin: 3rem 0 0 0 !important;}
+	.tariff a{font-size: 0.6rem !important;}
+	.decision_text{margin-left: 0 !important;}
+	section.block_5 .wrapper .form_1 .form_1_block:nth-child(2){padding-left: 0 !important; text-align: center;}
+	.decision_percent2{margin-bottom: 18% !important;}
+
+	section.block_5 .wrapper .form_1_block h4{font-size: 1.13em !important;}
+	.form_1{margin: 2.5rem 0 2rem 0 !important;}
+	section.block_5 .wrapper .item{margin-top: 3% !important;}
+	section.block_5 .wrapper .form_1_block h4{margin-bottom: 9% !important; text-align: left !important;}
+	section.block_5 .wrapper .item .text{font-size: 0.65em !important;}
+	section.block_5 .wrapper .item .icon{font-size: 1.2em !important;}
+	section.block_5 .wrapper .form_1 .form_1_block:nth-child(2) h4{margin-left: 1.5% !important;}
+	section.block_5 .wrapper .form_1_block .item .text{text-align: left !important;}
+	.c-tab.one{margin-bottom: 38% !important;}
+	.form_2_block h4{font-size: 1.5em !important;}
+	section.block_5 .wrapper .form_2_block .item .text{font-size: 1em !important;}
+	#conditions .form_1{height: 49rem !important;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{-webkit-background-size: 59% !important;
+	     -o-background-size: 59% !important;
+	        background-size: 59% !important;}
+
+	section.block_6 .header .text h3{font-size: 1.7em !important;}
+	.form_2 input{font-size: 0.9em !important;}
+	.form_2_block{margin-bottom: 1rem !important;}
+	.conditions .check_p{font-size: 0.67rem !important;}
+	.form_conditions{	margin-bottom: 15% !important;}
+	.form_2{height: 34rem !important;}
+	.form_2 input.form_btn{font-size: 1.7em !important; width: 13.5rem !important;}
+
+	#socials .header .text h3{font-size: 1.7em !important;}
+	#socials .header{height: 3.1rem !important;}
+	#socials .header .text .icon{width: 25px !important; height: 25px !important;}
+	#socials .header .text .icon i{font-size: 1.4em !important;}
+	#socials .header .text .icon i{margin-top: 7px !important;}
+
+	footer .site_info h5{font-size: 1em !important;}
+	footer .site_info span{font-size: 0.5em !important;}
+	footer .site_info span.text_2{font-size: 0.8em !important;}
+	footer .site_info p{font-size: 0.35em !important;}
+	footer{height: 7.125rem !important;}
+}
+
+@media (max-width: 400px){
+	#header ul.nav li{font-size: 1.25em !important;}
+	#header ul.nav{width: 65% !important;}
+	#header{height: 4rem !important;}
+	#header ul.nav li{line-height: 75px !important;}
+
+	#services h2{font-size: 2.2em !important;}
+	#services h1{font-size: 3.2em !important;}
+	#services .items .item{width: 71% !important;}
+	#services{height: 45em !important;}
+	#services{background: url("../img/home_header_320.jpg") right top no-repeat;}
+	.order a, .info_button a, .info_button span, .modal_form_button span.f_but{font-size: 1.5em !important;}
+
+	section.block_5 .header ul.nav li a{font-size: 1.5em !important;}
+	section.block_5 .header{height: 3rem !important;}
+	section.block_5 .wrapper h3{font-size: 1.5em !important;}
+	.jq-selectbox__select-text{min-width: 13.5rem !important;}
+	.ui-slider-block .title{font-size: 0.66rem !important;}
+	.decision_text{font-size: 0.8em !important;}
+	.decision_percent2{font-size: 1.5em !important;}
+	.decision_dopinfo{font-size: 0.7em !important;}
+
+
+	section.block_5 .wrapper .form_1_block h4{font-size: 1em !important;}
+	section.block_5 .wrapper .item .text{font-size: 0.55em !important;}
+	section.block_5 .wrapper .item .icon{font-size: 1.1em !important;}
+	.form_2_block h4{font-size: 1.2em !important;}
+	section.block_5 .wrapper .form_2_block .item .text{font-size: 0.8em !important;}
+	.block_5{margin-bottom: 0 !important;}
+	#conditions .form_1{height: 45rem !important;}
+
+	section.block_6 .header .text h3{font-size: 1.5em !important;}
+	section.block_6 .header{height: 2.8rem !important;}
+	section.block_6 .header .text h3{margin-top: 4.5% !important;}
+	.form_2 input{font-size: 0.8em !important;}
+	.form_2{height: 32rem !important;}
+	.conditions a{font-size: 0.59rem !important;}
+	.form_conditions{	margin-bottom: 18% !important;}
+	.form_2 input.form_btn{font-size: 1.5em !important; width: 12.5rem !important;}
+
+	#socials .header .text h3{font-size: 1.5em !important;}
+	#socials .header .text .icon{width: 22px !important; height: 22px !important;}
+	#socials .header .text .icon i{margin-top: 5px !important;}
+	#socials .header{height: 3rem !important;}
+	#socials .header .text h3{margin-top: 5% !important;}
+	#socials .header .text .icon{margin-top: 4% !important;}
+
+	footer .site_info h5{font-size: 0.8em !important;}
+	footer .site_info span{font-size: 0.45em !important;}
+	footer .site_info span.text_2{font-size: 0.6em !important;}
+}

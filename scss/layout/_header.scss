@@ -1,0 +1,120 @@
+header{
+	//margin-top: 20px;
+	//margin-bottom: 20px;
+	position:fixed;
+	z-index: 200;
+	background:#fff;
+	width:100%;
+	padding: 5px 0;
+	.logo{
+		width:150px;
+		margin-left: 50px;
+
+	}
+	.cosmos{
+		width:200px;
+		margin-left: 50px;
+	}
+	.headerBox{
+		width:33%;
+		margin-left: -4px;
+		display: inline-block;
+		display: inline-grid;
+				text-align: center;
+		img{
+			height:30px;
+		}				
+		p{
+
+			@include text(14px, $blue);
+			text-transform: uppercase;
+			margin-top: 10px;
+
+	
+
+		}
+		a{
+			text-decoration: none;
+			color: $blue;
+		}
+	}
+
+		.navIcons{
+			padding-left: 35px !important;
+		}
+ }
+
+
+
+ @media only screen and (max-width : 1200px){
+header{
+	
+//	position:static;
+
+ }
+}
+
+ @media only screen and (max-width : 1000px){
+	header{
+		 .headerBox{
+		 //	margin-top: 20px;
+		 img{
+		 	max-height: 40px;
+		 }
+		 }
+
+
+	}
+
+ }
+	@media only screen and (max-width : 800px){
+	header{
+		padding: 10px;
+		 .headerBox{
+		 //	margin-top: 20px;
+		 img{
+		 	max-height: 20px;
+		 }
+		 p{
+		 	margin:0;
+		 }
+		 }
+
+		.logo{
+			width: 20%;
+    		margin-left: 40%;
+    		margin-bottom: 20px;
+		}
+	}
+
+		#index{
+			.polit{
+			//min-height: 600px !important;
+
+				}
+			.perevagi{
+				padding-top: 20px;
+			}	
+
+		}
+
+	}
+
+@media only screen and (max-width : 500px){
+		header{
+			.logo{
+				width:20%;
+				margin-left: 40%;
+			}
+			
+			.headerBox{
+				width:33%;
+			}
+				#menuProDeposit{
+					display:block;
+				}
+		}
+
+
+
+}

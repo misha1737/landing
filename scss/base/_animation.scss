@@ -1,0 +1,11 @@
+.masagecookie{
+	//animation: news_action 3s ease-in-out;
+	animation: move 3s ease-in-out;
+}
+
+@keyframes move{
+0%{margin-bottom: -50vh}	
+30% {margin-bottom: -50vh}
+
+100%{margin-bottom: 0}
+}

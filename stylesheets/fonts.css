@@ -1,0 +1,23 @@
+
+
+@font-face{
+	font-family: "HelveticaBold";
+	src: url("../fonts/helvetica/Helvetica Bold_0.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "HelveticaOblique";
+	src: url("../fonts/helvetica/Helvetica Oblique_0.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "HelveticaRegular";
+	src: url("../fonts/helvetica/helveticaneuecyr-thin.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+

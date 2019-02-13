@@ -1,0 +1,120 @@
+.jq-checkbox {
+	top: -0.1rem;
+	vertical-align: middle;
+	width: 1rem;
+	height: 1rem;
+	margin: 0 0.5rem 0 0;
+	border: 1px solid #dcdbd6;
+	border-radius: 0.15rem;
+	background: #fff;
+	cursor: pointer;
+	outline: none;
+}
+.jq-checkbox.checked .jq-checkbox__div {
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0.2rem 0 0 0.24rem;
+	border-radius: 50%;
+	background: #0e2c56;
+	outline: none;
+}
+.jq-checkbox.focused {
+	outline: none;
+}
+.jq-checkbox.disabled {
+	opacity: .55;
+}
+
+
+.jq-selectbox {
+	vertical-align: middle;
+	cursor: pointer;
+	font-family: GothamProLight, sans-serif;
+	text-transform: uppercase;
+}
+.jq-selectbox__select {
+	height: 32px;
+	padding:0 3rem 0 0;
+	color: #0e2c56;
+}
+
+.jq-selectbox.disabled .jq-selectbox__select {
+	border-color: #ccc;
+	background: #f5f5f5;
+	box-shadow: none;
+	color: #888;
+}
+.jq-selectbox__select-text {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	min-width:17.5rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border:0.1rem solid #dcdbd6;
+	padding:0.5rem;
+}
+.jq-selectbox .placeholder {
+	color: #888;
+}
+.jq-selectbox__trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('../img/select_button.png') no-repeat;
+    background-size: 100%;
+	width: 34px;
+	height: 100%;
+	border-left: 0.5rem solid #fff;
+}
+
+
+.jq-selectbox__dropdown {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0.2rem 0 0;
+	padding: 0;
+	border: 1px solid #dcdbd6;
+	background: #fff;
+}
+
+.jq-selectbox ul {
+	margin: 0;
+	padding: 0;
+}
+
+.jq-selectbox li {
+	min-height: 1.2rem;
+	padding: 0.5rem 0.6rem 0.2rem;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	white-space: nowrap;
+	color: #0e2c56;
+}
+.jq-selectbox li.selected {
+	background-color: #dcdbd6;
+	color: #fff;
+}
+.jq-selectbox li:hover {
+	background-color: #0e2c56;
+	color: #fff;
+}
+.jq-selectbox li.disabled {
+	color: #aaa;
+}
+.jq-selectbox li.disabled:hover {
+	background: none;
+}
+.jq-selectbox li.optgroup {
+	font-weight: bold;
+}
+.jq-selectbox li.optgroup:hover {
+	background: none;
+	color: #231F20;
+	cursor: default;
+}
+.jq-selectbox li.option {
+	padding-left: 1.56rem;
+}

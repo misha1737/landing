@@ -1,0 +1,109 @@
+ footer{
+	height: auto !important;
+ 	background-color: $blue !important;
+	img.wLogo{
+		width:200px;
+		margin-bottom: 20px;
+	}
+	img.phone{
+		width:50px;
+		margin-bottom: 60px;
+		margin-right: 10px;
+	//	position: absolute;
+   // margin-left: -60px;
+	}
+	p{
+ 		color:white;
+ 	}
+ 	h6{
+ 		display:inline-block;
+ 		@include text(20px);
+ 		color:white;
+ 	}
+ 	.leftFooter{
+ 		padding-left: 35px;
+ 		margin-top: 40px;
+ 		margin-bottom: 20px;
+ 		p{
+ 			margin:0;
+			@include text(14px, white);
+ 		}
+ 	}
+ 	.centerFooter{
+ 		margin-top: 40px;
+ 		p{
+ 			margin-bottom:20px;
+			@include text(12px, white);
+			padding-left: 15px;
+ 		}
+ 		span{
+ 			text-align: right;
+ 			margin-left: -10px;
+ 			color:white;
+ 			position: absolute;
+ 			font-size: 10px;
+    		vertical-align: top;
+ 		}
+ 	}
+ 	.rightFooter{
+ 		text-align: center;
+		margin-top: 35px;
+		padding-left: 35px;
+		p{
+			margin:0;
+			@include text(14px, white);
+		}
+		.footerText{
+				display:inline-block;
+				text-align: left;
+			}
+
+		.tasAdrres{
+			text-align: left;
+			//
+			margin-top: 15px;
+			p{
+			@include text(14px, white);
+			}
+		}
+
+ 	}
+ 
+}
+
+	@media only screen and (max-width : 800px){
+
+		footer{
+			height:100vh !important;
+			.leftFooter{
+				margin-top: 150px;
+			}
+			img.phone{display:none	}
+			.rightFooter{
+				text-align: left;
+
+			}
+				.centerFooter span { 
+					
+				margin-left: 0px;
+			}
+				.centerFooter p{
+					padding-left: 25px;
+				}
+
+
+			.centerFooter{
+ 		margin-top: 0px;
+ 		p{
+ 			margin-bottom: 5px;
+ 		}
+ 	}
+ 	.rightFooter{
+			margin-top: 0px;
+ 	}
+ 	.leftFooter{
+				margin-bottom: 5px;
+ 	}
+		}
+		
+	}

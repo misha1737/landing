@@ -1,0 +1,93 @@
+
+
+
+
+/*  */
+.to_order {position: relative; z-index: 999; margin: 3rem 0 4rem 0;}
+
+ /* Обнуление тегов */
+ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+
+
+
+
+/* Header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Четвернтый блок */
+
+/* Пятый блок */
+.form_1 {
+}
+.form_1_block {
+	
+	width:60%;
+	margin-left: 20%;
+	color:#0e2c56;
+}
+
+.decision_text, .decision_dopinfo {
+	text-transform:uppercase;
+	margin-top:2rem;
+	margin-left:25%;
+	font-size:1.3125rem;
+}
+.decision_dopinfo {
+	margin-top:0;
+}
+
+.ui-slider-block {
+	margin:4rem 0 0 0;
+}
+.ui-slider-block .title {
+	font-size:1rem;
+	text-transform:uppercase;
+	margin:0 0 1rem 0.8rem;
+	text-align: left;
+}
+.slider-value {
+	text-transform:uppercase;
+	font-size:0.75rem;
+    margin-top: -2.1rem;
+	float: right;
+}
+.tariff {
+	margin:2rem 0 0 0;
+}
+.tariff a {
+	font-family: GothamProLight, sans-serif;
+	font-size:1rem;
+	color:#0e2c56;
+	text-transform:uppercase;
+	text-decoration:none;
+	position:absolute;
+	border-bottom:0.1rem solid #a5a7ad;
+}
+.tariff a:hover {
+	border:0;
+	color:#a5a7ad;
+}
+
+/* Шестой блок */
+
+/* Кнопки */
